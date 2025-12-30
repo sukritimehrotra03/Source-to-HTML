@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>sode2html</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:black; font-family:'sans-serif'; font-size:16px;">
+<pre>
+<span class="comment">/* this is multi-line comment */</span><span class="preprocess_dir">
+#include </span><span class="header_file">&lt;stdio.h&gt;</span><span class="preprocess_dir">
+#include </span><span class="header_file">&quot;header.h&quot;</span><span class="reserved_key1">
+
+int</span><span class="identifier"> main</span><span class="symbol">(</span><span class="symbol">)</span>
+<span class="symbol">{</span><span class="reserved_key1">
+    int</span><span class="identifier"> x</span> <span class="operator">=</span><span class="numeric_constant"> 10</span><span class="symbol">;</span><span class="comment">
+    // This is a for loop
+</span><span class="reserved_key2">    for</span><span class="symbol">(</span><span class="reserved_key1">int</span><span class="identifier"> i</span> <span class="operator">=</span><span class="numeric_constant"> 0</span><span class="symbol">;</span><span class="identifier"> i</span> <span class="operator"><</span><span class="numeric_constant"> 15</span><span class="symbol">;</span><span class="identifier"> i</span><span class="operator">+</span><span class="operator">+</span><span class="symbol">)</span>
+    <span class="symbol">{</span><span class="identifier">
+        printf</span><span class="symbol">(</span><span class="string">"X is %d\n"</span><span class="operator">,</span><span class="identifier"> x</span><span class="symbol">)</span><span class="symbol">;</span>
+    <span class="symbol">}</span><span class="reserved_key2">
+    return</span><span class="numeric_constant"> 0</span><span class="symbol">;</span>
+<span class="symbol">}</span></pre>
+</body>
+</html>

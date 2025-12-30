@@ -1,0 +1,49 @@
+.reserved_key1 {
+	color: rgb(20, 177, 135);
+}
+
+.reserved_key2 {
+	color: rgb(188, 95, 14);
+}
+
+.comment {
+	color: lightslategray;
+}
+
+.preprocess_dir {
+	color: rgb(177, 71, 71);
+}
+
+.header_file {
+    color: teal;
+    font-style: italic;
+}
+
+.string {
+	color: lightblue;
+}
+
+.numeric_constant {
+	color: lightblue;
+}
+
+.ascii_char {
+	color: firebrick;
+}
+
+.regular {
+	color: purple;
+}
+
+.operator {
+	color: brown;
+}
+
+.symbol {
+	color: white;
+}
+
+.identifier {
+    color: darkslateblue;
+    font-weight: bold;
+}
